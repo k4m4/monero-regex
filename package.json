@@ -1,6 +1,6 @@
 {
   "name": "monero-regex",
-  "version": "1.0.3",
+  "version": "1.0.2",
   "description": "Regular expression for matching Monero (XMR) addresses.",
   "license": "MIT",
   "repository": "k4m4/monero-regex",
@@ -25,6 +25,6 @@
     "index.js"
   ],
   "devDependencies": {
-    "ava": "*"
+    "ava": "^1.2.1"
   }
 }
