@@ -1,11 +1,11 @@
 declare namespace moneroRegex {
-    interface Options {
-        /**
-        Only match an exact string. By default, it matches any XMR addresses in a string. Useful with `RegExp#test()` to check if a string is an XMR address.
-        @default false
-        */
-        readonly exact?: boolean;
-    }
+	interface Options {
+		/**
+		Only match an exact string. By default, it matches any XMR addresses in a string. Useful with `RegExp#test()` to check if a string is an XMR address.
+		@default false
+		*/
+		readonly exact?: boolean;
+	}
 }
 
 /**
